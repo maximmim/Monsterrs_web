@@ -1,0 +1,842 @@
+
+
+
+.cards {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 20px;
+    left: 150px;
+    top: 200px;
+}
+#сdaw_1 {
+    left: 30%;
+    top: 300px;
+    transform: translate(-50%);
+    background-color: #78e0ff;
+}
+#сdaw_2 {
+    left: 50%;
+    top: 300px;
+    transform: translate(-50%);
+    background-color: #ffb978;
+}
+
+#сdaw_3 {
+    left: 70%;
+    top: 300px;
+    transform: translate(-50%);
+    background-color: #88ff78;
+}
+
+
+#k_1 {
+    left: 130px;
+    top: 100px;
+    transform: rotate(-3deg);    
+    background-color: #ffe597;
+}
+
+#k_1 {
+    left: 130px;
+    top: 100px;
+    transform: rotate(-3deg);    
+    background-color: #ffe597;
+}
+
+
+#k_2 {
+    right: 150px;
+    top: 110px;
+    transform: rotate(5deg);
+    background-color: #e597ff;
+}
+
+#k_3 {
+    left: 150px;
+    top: 620px;
+    transform: rotate(0deg);
+    background-color: #97e5ff;
+}
+
+#k_4 {
+    left: 28%;
+    transform: translate(-50%);
+    top: 250px;
+    transform: rotate(0deg);
+    background-color: #ff9797;
+}
+
+#k_5 {
+    left: 53%;
+    transform: translate(-50%);
+    top: 500px;
+    transform: rotate(3deg);
+    background-color: #97ffe5;
+}
+
+
+
+#k_1:hover {transform: rotate(0deg);}
+
+#k_2:hover {transform: rotate(0deg);}
+
+#k_3:hover {transform: rotate(4deg);}
+
+#k_4:hover {transform: rotate(-3deg);}
+
+#k_5:hover {transform: rotate(0deg);}
+
+
+
+.Koment_d {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 15px;
+    transition: transform 0.5s ease;
+}
+
+.Koment_d::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    transform: translate(-50%);
+    top: 20px;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.Koment_d::after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    transform: translate(-50%);
+    top:10px;
+    background-color: rgb(194, 0, 0);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+.Koment_img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    object-fit: cover;
+    width: 95%;
+    height: 300px;
+    border-radius: 15px; 
+    margin-top: 10px;
+}
+
+.cKoment_d {
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 15px;
+    transition: transform 0.5s ease;
+}
+
+
+.cKoment_img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    object-fit: cover;
+    width: 95%;
+    height: 400px;
+    border-radius: 15px; 
+    margin-top: 10px;
+}
+
+
+
+.СKoment_d {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(77, 64, 64);
+    border-radius: 15px;
+    transition: transform 0.5s ease;
+}
+
+
+.СKoment_img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    object-fit: cover;
+    width: 95%;
+    height: 300px;
+    border-radius: 15px; 
+    margin-top: 10px;
+}
+
+
+
+
+.Koment_like {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.Koment_down {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.Koment_data {
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    transform: translate(-50%);
+    font-size: 30px;
+
+}
+
+
+.Nawd{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 0px;
+    color: white;
+}
+
+
+
+.block {
+    position: absolute;
+    width:  100%;
+    height: 100%;
+}
+
+#b1 {
+    background-color: white;
+}
+#b2 {
+    top: 100%;
+    background-image: url("./fon.png");
+    background-size: 100% 2000px;
+    background-repeat: no-repeat;
+    background-position: 0px 50%;
+}
+
+#b3 {
+    top: 200%;
+    background-color: white;
+}
+
+#Hello {
+    position: absolute;
+    left: 25%;
+    transform: translate(-50%);
+    top: 25%;
+    color: black;
+    font-size: 60px;
+    width: 500px;
+    z-index: 1;
+}
+#Github_url {
+    position: absolute;
+    top: 300px;   
+    left: 0px; 
+    width: 40px; 
+    height: 40px;
+    transition: transform 0.3s ease; 
+    
+    z-index: 1;
+}
+#Github_url:hover {
+    transform: scale(1.5);
+}
+.Fll_img {
+    position: absolute;
+    right: 400px;
+    top: 300px;
+    width: 450px;
+    height: 250px;
+}
+
+.Flls_img {
+    position: absolute;
+    right: 400px;
+    top: 550px;
+    width: 450px;
+    height: 250px;
+}
+
+.Fllss_img {
+    position: absolute;
+    right: 400px;
+    top: 830px;
+    width: 450px;
+    height: 250px;
+}
+
+#Hello::after {
+    content: "Ми команда з fllМи команда з fllМи команда з fllМи команда з fllМи команда з fllМи команда з fllМи команда з fllМи команда з fllМи команда з fllМи команда з fllМи команда з fllМи команда з fll";
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    font-size: 20px;
+    
+    font-weight: normal; 
+    z-index: 1;
+}
+
+
+
+.Steck_icon {
+    position: absolute;
+    top: 0px;    
+    background-size: cover; 
+    background-repeat: no-repeat;     
+    width: 45px; 
+    height: 50px;
+    
+    z-index: 1;
+    transition: transform 0.3s ease; 
+}
+
+#js {
+    left: 250px;
+    background-image: url('./img/logo-javascript.svg');
+}
+#html {
+    left: 350px;
+    background-image: url('./img/html-1.svg');
+}
+#css {
+    left: 450px;
+    background-image: url('./img/css-3.svg');
+}
+#react {
+    top: -5px;
+    width: 70px;
+    height: 60px;
+    left: 530px;
+    background-image: url('./img/logo.svg');
+    z-index: 1;
+}
+#scss {
+    
+    z-index: 1;
+    height: 55px;
+    width: 65px;
+    left: 650px;
+    background-image: url('./img/sass.svg');
+}
+
+.Steck_icon:hover {
+    transform: scale(1.5);
+}
+
+.navbar-brand {
+    font-weight:bold; 
+}
+.logo-containers {
+    z-index: 1;
+    position: absolute;
+    top: -300px;
+    left: -150px;
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden; 
+    transition: transform 0.3s ease; 
+    transform: translate(-50px);
+}
+
+
+.logo-container {
+    
+    z-index: 1;
+    position: absolute;
+    top: -100%;
+    left: 150%;
+    width: 500px; 
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden; 
+    transition: transform 0.3s ease; 
+    transform: translate(-50px);
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; 
+    animation: spin 6s infinite linear;
+}
+.logo-containers:hover {
+    transform: scale(1.5); 
+
+}
+.logo-container:hover {
+    transform: scale(1.5); 
+
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.Image_proj {
+    z-index: 1;
+    width: 300px;
+    height: 600px;
+    border-radius: 15px;
+}
+
+.Title_proj {
+
+    z-index: 1;
+}
+
+
+.Text_proj {
+    z-index: 1;
+    max-width: 250px;
+    font-size: 20px;
+}
+
+#img_pro1 {
+
+    z-index: 1;
+    position: absolute;
+    top: 300px;
+    left: 350px;
+}
+
+#tit_pro1 {
+    z-index: 1;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+#text_pro1 {
+
+    z-index: 1;
+    position: absolute;
+    left: 100px;
+    top: 350px;
+}
+
+
+
+#tit_pro2 {
+    
+    z-index: 1;
+    position: absolute;
+    top: 350px;
+    right: 220px;
+}
+
+#img_pro2 {
+
+    z-index: 1;
+    position: absolute;
+    top: 400px;
+    right: 350px;
+}
+
+#text_pro2 {
+
+    z-index: 1;
+    position: absolute;
+    right: 100px;
+    top: 450px;
+}
+
+
+
+#view_c {
+    
+    z-index: 1;
+    position: absolute;
+    right: 350px;
+    top: 350px;
+
+}
+#git_c {
+    z-index: 1;
+    position: absolute;
+    right: 500px;
+    top: 350px;
+
+}
+
+
+
+#view_y {
+    z-index: 1;
+    position: absolute;
+    left: 550px;
+    top: 250px;
+
+}
+#git_y {
+    z-index: 1;
+    position: absolute;
+    left: 390px;
+    top: 250px;
+
+}
+.View {
+    z-index: 1;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;   
+    transition: transform 0.3s ease; 
+    transform: translate(0px)
+}
+.View::after {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -35px;    
+    background-size: cover; 
+    background-repeat: no-repeat;     
+    width: 30px; 
+    height: 30px;
+    background-image: url('./img/open.svg');
+ 
+}
+.View:hover {
+
+    transform: translate(30px);
+    color:rgb(139, 139, 139);
+    font-size: 20px;
+}
+
+
+
+.Git {
+    
+    z-index: 1;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;   
+    transition: transform 0.3s ease; 
+    transform: translate(0px)
+}
+.Git::after {
+    
+    z-index: 1;
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -35px;    
+    background-size: cover; 
+    background-repeat: no-repeat;     
+    width: 30px; 
+    height: 30px;
+    background-image: url('./img/github.svg');
+ 
+}
+
+.Git:hover {
+    transform: translate(30px);
+    color:rgb(139, 139, 139);
+    font-size: 20px;
+}
+
+#jss {
+    top: 600px;
+    left: 650px;
+    background-image: url('./img/logo-javascript.svg');
+}
+#htmls {
+    top: 500px;
+    left: 650px;
+    background-image: url('./img/html-1.svg');
+}
+#csss {
+    top: 400px;
+    left: 650px;
+    background-image: url('./img/css-3.svg');
+}
+#reacts {
+    top: 300px;
+    width: 70px;
+    height: 60px;
+    left: 630px;
+    background-image: url('./img/logo.svg');
+}
+
+#mongo {
+    width: 60px;
+    height: 60px;
+    top: 700px;
+    left: 645px;
+    background-image: url('./img/mongo_db.svg');
+}
+
+#node_js {
+    width: 50px;
+    height: 60px;
+    top: 800px;
+    left: 650px;
+    background-image: url('./img/nodejs-3.svg');
+}
+
+.About_me {
+    position: absolute;
+    left: 60%;
+    transform: translate(-50%);
+    top: 700px;
+}
+
+.Abo_tit {
+    position: absolute;
+    top: -300px;
+    left: -500px;
+    font-weight: bold;
+}
+.cont_linkedin {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 200px;
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+.active {
+    
+    cursor: pointer;
+}
+.cont_email {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 100px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.cont_email::after {
+    content: "Email:";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -30px;
+    font-weight: bold;
+}
+
+
+.Abo_tet {
+    position: absolute;
+    top: -250px;
+    left: -500px;
+    max-width: 300px;
+}
+
+.Cont {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -100px;
+    font-size: 45px;
+    font-weight: bold;
+
+    z-index: 1;
+}
+
+.menu_phone {
+    position: fixed;
+    transition: transform 0.3s ease; 
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    transform: translate(-100%);
+    background-color: rgba(216, 216, 216, 0.507);
+    z-index: 2;
+}
+
+
+
+
+
+
+.op {
+    position: fixed;
+    transform: translate(-50%);
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#op1 {
+    left: 50%;
+    top: 30%;
+}
+#op2 {
+    left: 50%;
+    top: 40%;
+}
+#op3 {
+    left: 50%;
+    top: 50%;
+}
+#op4 {
+    left: 50%;
+    top: 60%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #Hello {
+        font-size: 30px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 200px;
+        width: 300px;
+    }
+    #Hello::after {
+        top: 130px;
+    }
+    .Steck {
+        position: absolute;
+        left: 35px;
+        top: 250px;
+    }
+    #js {
+        left: 100px;
+    }
+    #html {
+        left: 155px;
+    }
+    #css {
+        left: 210px;
+    }
+    #react {
+        left: 250px;
+    }
+    #scss {
+        left: 100px;
+        top: 80px;
+    }
+    #Github_url {
+        left: 0px;
+        top: 340px;
+    }
+    .logo-container {
+        position: absolute;
+    top: 0px;
+    left: 180px;
+    width: 100px;
+    height: 100px;
+    transform: translate(50px);
+    }
+    .logo {
+        width: 100px;
+        
+    height: 100px;
+    }
+
+    #tit_pro1 {
+        left: 50%;
+        transform: translate(-50%);
+        top: 5%;
+    }
+
+    #text_pro1 {
+        left: 10px;
+        top: 10%;
+        max-width: 95%;
+    }
+
+    #img_pro1 {
+        top: 500px;   
+        z-index: 2;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #git_y {
+        position: absolute;
+        top: 450px;
+        left: 90px;
+    }
+    #view_y {
+        position: absolute;
+        top: 450px;
+        left: 250px;
+    }
+    .Abo_tet {
+        position: absolute;
+        top: -100px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 100%;
+    }
+    .logo-containers {
+        display: none;
+    }
+    .Abo_tit {
+        position: absolute;
+        top: -150px;
+        left: 50%;
+        font-weight: bold;
+        transform: translate(-50%);
+    }
+
+    .About_me {
+        width: 100%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #b3{
+        height: 150%;
+    }
+
+    .Cont {
+        bottom: 130px;
+    }
+    .cont_linkedin {
+        top: 150px;
+    }
+
+
+}
+
+
+
+
+
