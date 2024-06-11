@@ -14,7 +14,7 @@ import c_3_img from "../c3.png"
 
 
 
-import Flls from "../unnamed.png"
+import Project from '../component/Projects';
 import Fll from '../component/fll';
 import Sads from '../component/faw';
 import Koment from '../component/koment';
@@ -34,7 +34,6 @@ function Home() {
             
             <Sads/>
             
-        <img src={Flls} className="Fllss_img"/>
 
             </Block>
             <Block o={"b2"}>
@@ -89,23 +88,39 @@ function Home() {
             <CKoment
                 id={"сdaw_1"}
                 img={c_1_img}
+                data={"Максим"}
+                d={"програміст"}
             />
 
             <CKoment
-                id={"сdaw_2"}
+                id={"cdaw_2"}
                 img={c_2_img}
+                data={"Льоша"}
+                d={"інженер капітан"}
             />
 
             <CKoment
                 id={"сdaw_3"}
-                img={c_3_img}
+                img={c_3_img} 
+                data={"Тимофій"}
+                d={"інженер дизайнер"}
             />
 
 
             
             </Block>
 
-          
+            
+            <Block o={"b4"}>
+
+
+            <Project/>
+
+
+            </Block>
+
+
+
         </>
     );
 }

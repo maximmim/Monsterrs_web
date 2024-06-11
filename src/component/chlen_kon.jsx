@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-const CKoment = ({id,img,data}) => {
+const CKoment = ({id,img,data,d}) => {
 
     return ( 
         <>
@@ -10,9 +10,9 @@ const CKoment = ({id,img,data}) => {
 
             <img src={img} className="cKoment_img"/>
 
-
-            <p className="cKoment_data">{data}</p>
             
+            <b className="cKoment_data">{data}</b>
+            <p className="cCkodwa">{d}</p>
 
             </div>
 

@@ -12,9 +12,6 @@ const Koment = ({id,img,like,down,data}) => {
 
             <img src={img} className="Koment_img"/>
 
-            <b onClick={()=>{let d = parseInt(s1)+1;setS1(d)}} className="Koment_like">👍:{s1}</b>
-            <b onClick={()=>{let d = parseInt(s2)+1;setS2(d)}} className="Koment_down">👎:{s2}</b>
-
             <b className="Koment_data">{data}</b>
             
 
