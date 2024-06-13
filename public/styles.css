@@ -870,116 +870,198 @@
         position: absolute;
         left: 50%;
         transform: translate(-50%);
-        top: 200px;
+        top: 150px;
         width: 300px;
     }
     #Hello::after {
         top: 130px;
     }
-    .Steck {
+    #b1 {
+        height: 200%;
+    }
+    #b2 {
+        background-image: none;
+    }
+    #b3 {
+        height: 400%;
+    }
+    #k_1 {
+        left: 50% !important;
+        top: 0px;  
+        background-color: #ffe597;
+    }
+    #b4 {
+        top: 400%;
+    }
+    
+    #k_2 {
+        left: 50%;
+        top: 230px;
+        background-color: #e597ff;
+    }
+    
+    #k_3 {
+        left: 50%;
+        top: 460px;
+        background-color: #97e5ff;
+    }
+    
+    #k_4 {
+        left: 50%;
+        top: 690px;
+        background-color: #ff9797;
+    }
+    
+    #k_5 {
+        left: 50%;
+        top: 920px;
+        background-color: #97ffe5;
+    }
+    
+    .Koment_d {
         position: absolute;
-        left: 35px;
-        top: 250px;
+        left: 50%;
+        transform: translate(-50%) rotate(0deg) !important ;
+
+        width: 90%;
+        height: 200px;
+        background-color: rgb(238, 238, 238);
+        border-radius: 15px;
+        transition: transform 0.5s ease;
     }
-    #js {
-        left: 100px;
-    }
-    #html {
-        left: 155px;
-    }
-    #css {
-        left: 210px;
-    }
-    #react {
-        left: 250px;
-    }
-    #scss {
-        left: 100px;
-        top: 80px;
-    }
-    #Github_url {
-        left: 0px;
-        top: 340px;
-    }
-    .logo-container {
-        position: absolute;
-    top: 0px;
-    left: 180px;
-    width: 100px;
-    height: 100px;
-    transform: translate(50px);
-    }
-    .logo {
-        width: 100px;
+    #сdaw_1 {
+        top: 30px;
         
-    height: 100px;
+        left: 50%;
+        transition: transform 0.3s ease;
+        transform: translate(-50%);
+        background-color: #78e0ff;
+    }
+    #cdaw_2 {
+        top: 550px;
+        
+        left: 50%;
+        transition: transform 0.3s ease;
+        transform: translate(-50%);
+        background-color: #78ff95;
+    }
+    
+    
+    #сdaw_3 {
+        top: 1070px;
+        
+        left: 50%;
+        transition: transform 0.3s ease;
+        transform: translate(-50%);
+        background-color: #88ff78;
     }
 
-    #tit_pro1 {
+    .dwaas {
+        position: absolute;
         left: 50%;
         transform: translate(-50%);
-        top: 5%;
+        top: 0px;
+        font-size: 25px;
+        font-style: bold;
+        word-wrap: break-word;
+        width: 80%;
     }
 
-    #text_pro1 {
-        left: 10px;
-        top: 10%;
-        max-width: 95%;
+    #uw1 {
+        left: 60px !important;
+        top: 750px;
+    }    
+    #uw2 {
+        right:30px !important;
+        top: 750px;
     }
-
-    #img_pro1 {
-        top: 500px;   
-        z-index: 2;
+    #u1 {
         left: 50%;
         transform: translate(-50%);
+        top: 850px;
+        width: 65%;
+    }
+    #u2 {
+        left: 50%;
+        transform: translate(-50%);
+        top: 1350px;
+        width: 65%;
+    }
+    #u3 {
+        left: 50%;
+        transform: translate(-50%);
+        top: 1700px;
+        width: 65%;
     }
 
-    #git_y {
+    .dw {
         position: absolute;
-        top: 450px;
-        left: 90px;
+        left: 50%;
+        transform: translate(-50%);
+        top: 100px;
+        width: 80%;
+        height: 10%;
     }
-    #view_y {
+
+
+
+
+
+
+    .cKoment_d {
         position: absolute;
-        top: 450px;
-        left: 250px;
+        width: 90%;
+        height: 500px;
+        background-color: rgb(238, 238, 238);
+        border-radius: 15px;
+        transition: transform 0.5s ease;
     }
-    .Abo_tet {
+    .cKoment_data {
         position: absolute;
-        top: -100px;
+        bottom: 90px;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 25px;
+    }
+    .cKoment_img {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        object-fit: cover;
+        width: 95%;
+        height: 350px;
+        border-radius: 15px; 
+        margin-top: 10px;
+    }
+    
+    .Fll_img {
+        left: 50%;
+        transform: translate(-50%);
+        width: 90%;
+        height: 250px;
+        top: 400px;
+    }
+    .Flls_img {
         left: 50%;
         transform: translate(-50%);
         width: 100%;
+        height: 200px;
+        top: 650px;
     }
-    .logo-containers {
-        display: none;
+    .Koment_d::before {
+        width: 0px;
+        height: 0px;
     }
-    .Abo_tit {
-        position: absolute;
-        top: -150px;
-        left: 50%;
-        font-weight: bold;
-        transform: translate(-50%);
-    }
-
-    .About_me {
-        width: 100%;
-        left: 50%;
-        transform: translate(-50%);
-    }
-
-    #b3{
-        height: 150%;
-    }
-
-    .Cont {
-        bottom: 130px;
-    }
-    .cont_linkedin {
-        top: 150px;
+    
+    .Koment_d::after {
+        width: 0px;
+        height: 0px;
     }
 
 
+
+
+    
 }
 
 

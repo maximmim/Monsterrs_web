@@ -39,9 +39,10 @@ function o(el) {
         <>
 
       <div ref={menu} className='menu_phone'>
-        <div className='op' id='op1' onClick={()=>o(start)}>Start</div>
-        <div className='op' id='op2' onClick={()=>o(proj)}>Project</div>
-        <div className='op' id='op3' onClick={()=>o(About)}>About me</div>
+        <div className='op' id='op1' onClick={()=>o(start)}>О нас</div>
+        <div className='op' id='op2' onClick={()=>o(proj)}>Моменти</div>
+        <div className='op' id='op3' onClick={()=>o(About)}>Ми</div>
+        <div className='op' id='op4' onClick={()=>o(Cont)}>Проєкт</div>
       </div>
 
         <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary">
