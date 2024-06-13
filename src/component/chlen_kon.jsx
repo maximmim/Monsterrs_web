@@ -12,7 +12,7 @@ const CKoment = ({id,img,data,d}) => {
 
             
             <b className="cKoment_data">{data}</b>
-            <p className="cCkodwa">{d}</p>
+            <b className="cCkodwa">{d}</b>
 
             </div>
 

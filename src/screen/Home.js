@@ -38,7 +38,6 @@ function Home() {
             </Block>
             <Block o={"b2"}>
              
-            <h1 className='Nawd'>Наші розваги</h1>
 
             <Koment
                 id={"k_1"}
@@ -84,7 +83,6 @@ function Home() {
             </Block>
 
             <Block o={"b3"}>
-
             <CKoment
                 id={"сdaw_1"}
                 img={c_1_img}
