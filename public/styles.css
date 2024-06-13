@@ -881,9 +881,11 @@
     }
     #b2 {
         background-image: none;
+        top:110%;
     }
     #b3 {
         height: 400%;
+        top: 250%;
     }
     #k_1 {
         left: 50% !important;
@@ -891,7 +893,7 @@
         background-color: #ffe597;
     }
     #b4 {
-        top: 400%;
+        top: 500%;
     }
     
     #k_2 {
